@@ -9,4 +9,4 @@ Simple git commands used frequently
 ```git branch -a```
 
 - Create a local branch and switch to it.<br>
-```git checkout -b branch_name````
+```git checkout -b branch_name```
