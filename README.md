@@ -1,4 +1,4 @@
-<img src="https://i.hizliresim.com/fplaXz.png" alt="" width="800" height="300">
+<img src="https://i.hizliresim.com/fplaXz.png" alt="" width="800" height="350">
 
 
 ## **Setup & Init**
