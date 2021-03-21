@@ -1,4 +1,5 @@
-**I gathered together the Git commands that I used frequently during the day.**
+<img src="https://i.hizliresim.com/fplaXz.png" alt="" width="800" height="300">
+
 
 ## **Setup & Init**
 
