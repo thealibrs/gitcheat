@@ -1,7 +1,7 @@
 Simple git commands used frequently
 
-## Setup & Init
-<hr>
+## **Setup & Init**
+
 
 - Initialize an existing directory as a Git repository\
 ```git init```
@@ -12,8 +12,8 @@ Simple git commands used frequently
 
 
 
-## Stage & Snapshot
-<hr>
+## **Stage & Snapshot**
+
 
 - Show modified files in working directory, staged for your next commit
 ```git status```
@@ -33,7 +33,7 @@ Simple git commands used frequently
 - Commit your staged content as a new commit snapshot\
 ```git commit -m “[descriptive message]”```
 
-## Branch & Merge
+## **Branch & Merge**
 
 - List your branches. a * will appear next to the currently active branch\
 ```git commit -m “[descriptive message]”```
