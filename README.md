@@ -1,7 +1,6 @@
-Simple git commands used frequently
+**I gathered together the Git commands that I used frequently during the day.**
 
 ## **Setup & Init**
-
 
 - Initialize an existing directory as a Git repository\
 ```git init```
@@ -11,11 +10,9 @@ Simple git commands used frequently
 
 
 
-
 ## **Stage & Snapshot**
 
-
-- Show modified files in working directory, staged for your next commit
+- Show modified files in working directory, staged for your next commit\
 ```git status```
 
 - Add a file as it looks now to your next commit (stage)\
@@ -36,25 +33,25 @@ Simple git commands used frequently
 ## **Branch & Merge**
 
 - List your branches. a * will appear next to the currently active branch\
-```git commit -m “[descriptive message]”```
-
-## Branches
-<hr>
-
-- Lists **all local branches**.\
 ```git branch```
-
-- List **remote and local branches**.\
-```git branch -a```
-
-- Create a local branch and switch to it.\
-```git checkout -b branch_name```
 
 - Switch to an existing branch.\
 ```git checkout branch_name```
 
+- Create a new branch at the current commit\
+```git branch [branch-name]```
+
+- Create a local branch and switch to it.\
+```git checkout -b branch_name```
+
 - Push branch to remote.\
 ```git push origin branch_name```
+
+- Switch to another branch and check it out into your working directory\
+```git checkout```
+
+- Merge the specified branch’s history into the current one\
+```git merge [branch]```
 
 - Rename current branch.\
 ```git branch -m new_name```
@@ -62,6 +59,23 @@ Simple git commands used frequently
 - Delete a local branch.\
 ```git branch -d branch_name```
 
-- Delete a remote branch.\
-```git push origin :branch_name```
+- Show all commits in the current branch’s history\
+```git log```
+
+
+## **Share & Update**
+
+- Add a git URL as an alias\
+```git remote add [alias] [url]```
+
+- Merge a remote branch into your current branch to bring it up to date\
+```git merge [alias]/[branch]```
+
+- Transmit local branch commits to the remote repository branch\
+```git push [alias] [branch]```
+
+- Fetch and merge any commits from the tracking remote branch\
+```git pull```
+
+
 
